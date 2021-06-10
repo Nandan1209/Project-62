@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project-62</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#grid">Grid Gallery</a></li>
+        <li class="links"><a href="#sliding">Sliding Gallery</a></li>
+    </ul>
+    <section id="grid">
+        <div class="container">
+            <h1>Grid gallery</h1>
+            <div class="line"></div>
+            <div class="column">
+                <div class="row"> <img src="Car-1.jpeg"> <img src="Car-2.jpeg"> <img src="Car-3.jpeg"> <img src="Car-4.jpeg"></div>
+            </div>
+            <div class="column">
+                <div class="row"> <img src="Car-5.jpeg"> <img src="Car-6.jpeg"> <img src="Car-7.jpeg"> <img src="Car-8.jpeg"> </div>
+            </div>
+        </div>
+    </section>
+    <div id="myCarousel" class="carousel slide">
+        <section id="sliding">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center> <a href="https://www.medicalnewstoday.com/articles/266425" target="_blank"> <img src="Car.jpeg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Ferrari Portofino</p>
+                        </div>
+                    </center>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
